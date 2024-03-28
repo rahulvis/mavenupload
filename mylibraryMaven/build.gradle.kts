@@ -34,26 +34,89 @@ android {
 
 }
 
-publishing{
+publishing {
     publications {
-        create<MavenPublication>("maven") {
+        create<MavenPublication>("Maven") {
+            groupId = "com.example.mylibrarymaven"
+            artifactId = "mylibrarymaven"
+            version = "0.0.1"
+           // from(components["kotlin"])
+        }
+        withType<MavenPublication> {
+            pom {
+                packaging = "com.example.mylibrarymaven"
+                name.set("foo")
+                description.set("Project Library Maven")
+                url.set("fooyee.com")
+                licenses {
+                    license {
+                        name.set("MIT license")
+                        url.set("https://opensource.org/licenses/MIT")
+                    }
+                }
+                issueManagement {
+                    system.set("Github")
+                    url.set("https://github.com/mcroteau/foo/issues")
+                }
+                scm {
+                    connection.set("scm:git:git://github.com/rahulvis/mavenupload.git")
+                    developerConnection.set("scm:git:git@github.com:mcroteau/foo.git")
+                    url.set("https://github.com/rahulvis/mavenupload")
+                }
+                developers {
+                    developer {
+                        name.set("rahul.via@gmail.com")
+                        email.set("rahul.via@gmail.com")
+
+                    }
+                }
+            }
+        }
+    }
+}
+/*publishing{
+    publications {
+        create<MavenPublication>("mavenupload") {
             groupId = "org.gradle.sample"
             artifactId = "library"
             version = "1.1"
             artifact("$buildDir/output/aar/mylibraryMaven-release.aar")
-           // from(components["java"])//mylibraryMaven-release.aar
+            // from(components["java"])//mylibraryMaven-release.aar
         }
     }
     repositories{
         maven {
             url =uri("https://gitlab.com/rahul.vis/mavenproject")
             credentials {
-                username = "rahul.vishwakarma@nsdlbank.co.in"
-                password = "test1@test"
+                username = "rahul.via@gmail.com"
+                password = "Secure1@zero"
+            }
+        }
+    }
+}*/
+/*
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "master.mylibraryMaven"
+            artifactId = "library"
+            version = "0.001"
+            artifact("$buildDir/outputs/aar/mylibraryMaven-release.aar")
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://github.com/rahulvis/mavenupload")
+            credentials {
+                username = "rahul.via@gmail.com"
+                password = "Secure1@zero"
             }
         }
     }
 }
+*/
+
+
 
 dependencies {
 
