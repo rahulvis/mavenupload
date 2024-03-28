@@ -36,18 +36,27 @@ android {
 
 publishing {
     publications {
-        create<MavenPublication>("Maven") {
+        register<MavenPublication>("release") {
             groupId = "com.example.mylibrarymaven"
             artifactId = "mylibrarymaven"
             version = "0.0.1"
            // from(components["kotlin"])
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+        repositories {
+            maven {
+                name = "mylibrarymaven"
+                url = uri("${project.buildDir}/repo")
+            }
         }
         withType<MavenPublication> {
             pom {
                 packaging = "com.example.mylibrarymaven"
-                name.set("foo")
+                name.set("mylibrarymaven")
                 description.set("Project Library Maven")
-                url.set("fooyee.com")
+               // url.set("fooyee.com")
                 licenses {
                     license {
                         name.set("MIT license")
@@ -56,16 +65,16 @@ publishing {
                 }
                 issueManagement {
                     system.set("Github")
-                    url.set("https://github.com/mcroteau/foo/issues")
+                    url.set("https://github.com/rahulvis/mavenupload/issues")
                 }
                 scm {
-                    connection.set("scm:git:git://github.com/rahulvis/mavenupload.git")
-                    developerConnection.set("scm:git:git@github.com:mcroteau/foo.git")
+                    connection.set("scm:git://github.com/rahulvis/mavenupload.git")
+                    developerConnection.set("scm:git:git@github.com:rahulvis/mavenupload.git")//git@github.com:rahulvis/mavenupload.git
                     url.set("https://github.com/rahulvis/mavenupload")
                 }
                 developers {
                     developer {
-                        name.set("rahul.via@gmail.com")
+                        name.set("rahul")
                         email.set("rahul.via@gmail.com")
 
                     }
@@ -127,4 +136,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 }
