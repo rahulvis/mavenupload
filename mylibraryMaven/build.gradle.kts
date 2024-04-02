@@ -128,6 +128,8 @@ publishing {
 
 
 dependencies {
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
+
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -139,5 +141,8 @@ dependencies {
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    compileOnly(files("libs/protean-esign-v-2.3.aar"))
+    implementation("com.android.volley:volley:1.2.1")
 
 }

@@ -1,0 +1,153 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <!---->
+
+    <!--text sizes -->
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="txt_title">18sp</dimen>
+
+    <!--Spacing -->
+
+    <!-- material dialog-->
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+
+    <dimen name="title_bar_text">18sp</dimen>
+
+    <!-- goibibo -->
+    <dimen name="txt_medium">16sp</dimen>
+    <dimen name="txt_small">11sp</dimen>
+
+
+    <!-- ++++++++++++++++++++++++++ PINVIEW ++++++++++++++++++++++++ -->
+
+    <!--
+</style> -->
+
+
+    <!--80dp-->
+    <!--100dp-->
+
+    <!-- @PKMay15 For spots loader at UploadPan fragment -->
+
+    <!-- ArcProgressView RechargeActivity -->
+
+
+    <!-- @PKJun02 Recharge Status dimens -->
+    <dimen name="recharge_amount_text_size">27sp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <!--35 mdpi -->
+
+
+    <!-- @PKJun15 CVV in transparent activity New design-->
+    <!--<dimen name="cvvCardImageWidth">100dp</dimen>-->
+    <dimen name="bottom_date_time_text_size">13sp</dimen>
+    <dimen name="bottom_status_margin_top">6dp</dimen>
+
+
+    <!-- @FS June 19-06-2017 -->
+    <dimen name="ver_set_address_txt">14sp</dimen>
+    <dimen name="ver_set_apointment_margin">35dp</dimen>
+
+
+    <dimen name="zomato_divider">5dp</dimen>
+    <!--    <dimen name="design_fab_image_size">30sp</dimen>
+        <dimen name="design_fab_size_mini">50dp</dimen>-->
+    <!-- zomato restro details-->
+
+    <!-- map info -->
+
+    <!--collapsing layout-->
+
+    <!-- @FS July 3 17 user img_profile-->
+    <!-- @FS July 3 17 fragment_account_success-->
+
+    <!-- @FS 7-7-17 ConfirmUserProfile -->
+
+
+    <!--@FS 07-07-2017 general dimens-->
+    <dimen name="nsdl_text_title_large">20dp</dimen>
+    <dimen name="nsdl_edit_text_size">14dp</dimen>
+    <dimen name="nsdl_edit_text_padding_bottom">13dp</dimen>
+    <dimen name="nsdl_edit_text_padding_left">5dp</dimen>
+    <dimen name="nsdl_textview_size">12dp</dimen>
+    <dimen name="nsdl_button_layout_height">65dp</dimen>
+    <dimen name="nsdl_button_height">40dp</dimen>
+    <dimen name="nsdl_button_margin_left">5dp</dimen>
+    <dimen name="nsdl_button_margin_right">5dp</dimen>
+
+
+    <!-- @FS 07-07-2017 -->
+
+
+    <!-- SWAPNIL @3-7-2017 Fund transfer START-->
+    <dimen name="lbl_text">12dp</dimen>
+    <dimen name="manage_bene_image_padding">15dp</dimen>
+    <dimen name="edit_text_right_image">30dp</dimen>
+    <dimen name="edit_text_right_image_padding">3dp</dimen>
+    <dimen name="view_line_margin_left">8dp</dimen>
+    <dimen name="checkbox_save_height">25dp</dimen>
+    <!--recent transaction row START -->
+    <!-- recent transaction END -->
+
+    <!--beneficiary row START-->
+    <!-- END -->
+
+    <!--beneficiary_contacts START -->
+    <dimen name="manage_bene_edit_img">20dp</dimen>
+    <!-- END -->
+
+
+    <!--END-->
+
+    <!-- @PKJuly12 Scrolling toolbar /lopbar below the action bar -->
+
+
+    <!-- @FS 10-07-2017 userlogin-mpin -->
+    <dimen name="userlogin_txt_size">12dp</dimen>
+
+
+    <!-- @PKJuly15 -->
+
+    <!--manage_bene fragment @SKJuly17 -->
+
+    <!--bank suggestion text-->
+    <dimen name="suggestion_top">10dp</dimen>
+
+    <!--search ifsc bank row-->
+
+    <!-- 29/07/2017 activity accounts landing-->
+
+    <!--31/07/2017 accounts dash fragment-->
+
+    <!--01-08-2017 acc sub fragments savings. -->
+
+    <!-- demo account landing fragment-->
+
+    <!--welcome screen-->
+    <dimen name="benefit_right">10dp</dimen>
+    <dimen name="dot_text_left">5dp</dimen>
+
+    <dimen name="button_bottom_margin">10dp</dimen>
+    <dimen name="welcome_button_bottom">25dp</dimen>
+
+    <!-- ask cards 12-01-2018-->
+
+    <!-- viewpager number indicator-->
+
+    <!-- Revised Choose an Option-->
+    <dimen name="cardview_revised_margin">10dp</dimen>
+
+    <dimen name="AddressSelectionVerticlePadding">7dp</dimen>
+    <dimen name="AddressSelectionHorizontalPadding">13dp</dimen>
+    <dimen name="AddressSelectionCornerRadius">9dp</dimen>
+
+    <dimen name="nsdl_button_layout_padding_left">20dp</dimen>
+    <dimen name="nsdl_button_layout_padding_right">20dp</dimen>
+    <dimen name="nsdl_button_layout_padding_bottom">3dp</dimen>
+    <dimen name="nsdl_button_layout_padding_top">3dp</dimen>
+
+</resources>

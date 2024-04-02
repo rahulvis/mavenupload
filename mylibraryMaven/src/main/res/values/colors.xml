@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryBc">#EFC227</color>
+    <color name="colorPrimaryDarkBc">#F6A821</color>
+    <color name="themeBlackBc">#2F2F2F</color>
+  <!--  <color name="colorPrimary">#EFC227</color>
+    <color name="colorPrimaryDark">#F6A821</color>
+    <color name="colorAccent">#EFC227</color>-->
+
+    <color name="text_blackBc">#000000</color>
+    <color name="text_header_blue">#334963</color>
+    <color name="line_blue">#48A3ED</color>
+    <color name="text_main_blue">#001C3D</color>
+    <color name="light_grey">#e0e0e0</color>
+    <color name="progressbar_color">#21d85c</color>
+    <color name="themeBlack">#2F2F2F</color>
+    <color name="light_gray_background">#F2f2f2</color>
+    <color name="declarationTitle">#626262</color>
+
+
+    <color name="nsdl_edit_text_colorBc">#000000</color>
+    <color name="nsdl_textview_colorBc">#000000</color>
+    <color name="anim_black">#66000000</color>
+    <color name="nsdl_edit_text_hint_colorBc">#767676</color>
+    <color name="yellow">#E4A438</color>
+    <color name="soft_grey">#9E9E9E</color>
+
+    <color name="themeOrange">#F6A821</color>
+
+    <color name="redBc">#D71111</color>
+    <color name="text_color_grey">#4a4a4a</color>
+    <color name="green">#55994c</color>
+    <color name="error_color">#E7492E</color>
+
+    <color name="pin_normal">#6B767E</color>
+
+    // FS 17 JUN
+    <color name="light_greyBc">#e0e0e0</color>
+
+    <color name="transparent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gr">#a7a7a7</color>
+    <color name="dark_gray">#4a4a4a</color>
+    <color name="light_gray">#E6E6E6</color>
+    <color name="new_light_grey">#686868</color>
+    <color name="new_grey">#FAFAFA</color>
+
+    <color name="declarationTerms">#595959</color>
+    <color name="text_lightres">#DEB887</color>
+
+    <color name="themeOrangeTransparent">#80F6A821</color>
+    <color name="selectedDrawerTab">#F4BB24</color>
+
+    <color name="nsdl_textview_color">#000000</color>
+
+    <color name="app_blue">#2F40E6</color>
+    <color name="themeYellow">#EFC227</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+</resources>

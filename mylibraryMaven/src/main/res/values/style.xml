@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="nsdlLargeTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="customTypeface">latoBlack</item>
+        <item name="android:textSize">@dimen/nsdl_text_title_large</item>
+        <item name="android:textColor">@color/nsdl_textview_colorBc</item>
+    </style>
+
+    <style name="MyLibTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#FAFAFA</item>
+        <item name="colorAccent">#D3D3D3</item>
+
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="colorControlHighlight">@color/white</item>
+
+    </style>
+
+    <style name="TilStyle" parent="Widget.Design.TextInputLayout">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/nsdl_edit_text_hint_colorBc</item>
+    </style>
+
+    <style name="nsdlEditTextBc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingBottom">@dimen/nsdl_edit_text_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/nsdl_edit_text_padding_left</item>
+        <item name="paddingStart">@dimen/nsdl_edit_text_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">@dimen/nsdl_edit_text_size</item>
+        <item name="android:textColor">@color/nsdl_edit_text_colorBc</item>
+        <item name="android:textColorHint">@color/nsdl_edit_text_hint_colorBc</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="bullet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">\u2022</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="bulletText" parent="bullet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <!--<style name="radioButtonBc" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_gender</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>-->
+
+
+
+    <style name="radioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <!-- <item name="android:button">@drawable/radio_gender</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/line_blue</item>
+    </style>
+
+    <style name="nsdlTVFarrington" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+
+    <style name="SuccessScreenIV">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SuccessScreenIvTvSpace">
+        <item name="android:layout_width">4dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#F5F5F5</item>
+    </style>
+
+    <style name="SuccessScreenTV">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+
+
+    <style name="Theme.FullScreenDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--<style name="nsdlTVLatoRegularLargeBold" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/checkbox_save_height</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/nsdl_textview_color</item>
+    </style>-->
+
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <!--
+        Disabled for correct behavior on Android 4.x, see
+        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>
