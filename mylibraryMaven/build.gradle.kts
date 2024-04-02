@@ -39,7 +39,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.example.mylibrarymaven"
             artifactId = "mylibrarymaven"
-            version = "0.0.1"
+            version = "0.0.2"
            // from(components["kotlin"])
             afterEvaluate {
                 from(components["release"])
